@@ -25,7 +25,7 @@ class Canvas extends Component {
                 params={{
                     particles: {
                         number: {
-                            value: 30,
+                            value: 40,
                             density: {
                                 enable: true,
                                 value_area: 800
