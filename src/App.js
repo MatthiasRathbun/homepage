@@ -6,7 +6,7 @@ const styles = {
   root: {
     fontFamily: "sans-serif",
     textAlign: "center",
-    background: "#222",
+    background: "#s222",
     display: "flex",
     zIndex: "0",
     position: "absolute",
