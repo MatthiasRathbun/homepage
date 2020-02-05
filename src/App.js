@@ -69,24 +69,24 @@ class App extends Component {
               <hr className="orangeLine"></hr>
             </div>
             <ul className="links">
+              <li><a href="https://todoist.com/app" target="_blank" rel="noopener noreferrer">Todoist</a></li>
               <li><a href="https://classroom.google.com/" target="_blank" rel="noopener noreferrer">Google Classroom</a></li>
               <li><a href="https://sis-jeffersonco.chalkableinformationnow.com/InformationNow/Login.aspx?ReturnUrl=%2fInformationNow%2fParentPortal%2fSti.Home.UI.Web%2fStudent%2fGrades.aspx" target="_blank" rel="noopener noreferrer">iNow</a></li>
-              <li><a href="https://rc.uab.edu/pun/sys/dashboard" target="_blank" rel="noopener noreferrer">Cheaha</a></li>
               <li><a href="https://calendar.google.com/calendar/r" target="_blank" rel="noopener noreferrer">Calendar</a></li>
-              <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              
             </ul>
           </div>
           <div className="collegeApps linkContainer">
             <div className="groupHeader collegeAppsHeader">
               <div className="headerText blueHeader">
-                College Applications.
+                UAB.
                         </div>
               <hr className="blueLine"></hr>
             </div>
             <ul className="links">
-              <li><a href="https://apply.commonapp.org/login" target="_blank" rel="noopener noreferrer">CommonApp</a></li>
-              <li><a href="http://mycoalition.org/" target="_blank" rel="noopener noreferrer">CoalitionApp</a></li>
-              <li><a href="https://www.thesaurus.com/" target="_blank" rel="noopener noreferrer">Thesaurus</a></li>
+              <li><a href="https://uab.instructure.com/" target="_blank" rel="noopener noreferrer">Canvas</a></li>
+              <li><a href="https://rc.uab.edu/pun/sys/dashboard" target="_blank" rel="noopener noreferrer">Cheaha</a></li>
+              <li><a href="https://mie-graphs.herokuapp.com/" target="_blank" rel="noopener noreferrer">Mie Extinction</a></li>
             </ul>
           </div>
           <div className="messaging linkContainer">
@@ -114,6 +114,7 @@ class App extends Component {
               <li><a href="https://www.reddit.com/" target="_blank" rel="noopener noreferrer">Reddit</a></li>
               <li><a href="https://www.reddit.com/r/news/" target="_blank" rel="noopener noreferrer">r/News</a></li>
               <li><a href="https://medium.com/" target="_blank" rel="noopener noreferrer">Medium</a></li>
+              <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
             </ul>
           </div>
         </div>
