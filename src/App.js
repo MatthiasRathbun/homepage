@@ -87,6 +87,7 @@ class App extends Component {
               <li><a href="https://uab.instructure.com/" target="_blank" rel="noopener noreferrer">Canvas</a></li>
               <li><a href="https://rc.uab.edu/pun/sys/dashboard" target="_blank" rel="noopener noreferrer">Cheaha</a></li>
               <li><a href="https://mie-graphs.herokuapp.com/" target="_blank" rel="noopener noreferrer">Mie Extinction</a></li>
+              <li><a href="https://outlook.office365.com/owa/?realm=uab.edu&path=/mail/inbox" target="_blank" rel="noopener noreferrer">UAB Email</a></li>
             </ul>
           </div>
           <div className="messaging linkContainer">
