@@ -110,7 +110,7 @@ class App extends Component {
           <div className="socialMedia linkContainer">
             <div className="groupHeader socialMediaHeader">
               <div className="headerText redHeader">
-                Social and Games.
+                Social Media.
                         </div>
               <hr className="redLine"></hr>
             </div>
@@ -119,6 +119,7 @@ class App extends Component {
               <li><a href="https://www.reddit.com/r/news/" target="_blank" rel="noopener noreferrer">r/News</a></li>
               <li><a href="https://medium.com/" target="_blank" rel="noopener noreferrer">Medium</a></li>
               <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="https://youtube.com/" target="_blank" rel="noopener noreferrer">Youtube</a></li>
 
             </ul>
           </div>
