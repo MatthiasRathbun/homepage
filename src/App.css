@@ -137,3 +137,36 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+
+.ant-btn-primary {
+    color: #fff;
+    background-color: #582430;
+    border-color: #582430;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.045);
+    box-shadow: 0 2px 0 rgba(0,0,0,.045);
+}
+
+.ant-input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum","tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(255,255,255,1);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #444444;
+    background-image: none;
+    border: 1px solid #444444;
+    border-radius: 2px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
