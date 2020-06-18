@@ -72,11 +72,10 @@ class App extends Component {
             </div>
             <ul className="links">
               <li><a href="https://keep.google.com/u/0/" target="_blank" rel="noopener noreferrer">Google Keep</a></li>
-              <li><a href="https://classroom.google.com/u/1/" target="_blank" rel="noopener noreferrer">Google Classroom</a></li>
-              <li><a href="https://www.mysdpbc.org/" target="_blank" rel="noopener noreferrer">School Portal</a></li>
               <li><a href="https://calendar.google.com/calendar/r" target="_blank" rel="noopener noreferrer">Calendar</a></li>
               <li><a href="https://my.ucf.edu/psp/IHPROD/EMPLOYEE/EMPL/h/?tab=DEFAULT&cmd=login" target="_blank" rel="noopener noreferrer">UCF Portal</a></li>
               <li><a href="http://www.outlook.com/knights.ucf.edu" target="_blank" rel="noopener noreferrer">UCF Email</a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
               
             </ul>
           </div>
@@ -91,7 +90,8 @@ class App extends Component {
             <li><a href="steam://rungameid/359550" target="_blank" rel="noopener noreferrer">Rainbow Six</a></li>
               <li><a href="steam://rungameid/252950" target="_blank" rel="noopener noreferrer">Rocket League</a></li>
               <li><a href="uplay://launch/4932/0" target="_blank" rel="noopener noreferrer">Division 2</a></li>
-
+              <li><a href="steam://rungameid/1085660" target="_blank" rel="noopener noreferrer">Destiny 2</a></li>
+              <li><a href="steam://rungameid/582010" target="_blank" rel="noopener noreferrer">Monster Hunter: World</a></li>
             </ul>
           </div>
           <div className="messaging linkContainer">

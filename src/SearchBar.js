@@ -11,11 +11,18 @@ export default class SearchBar extends Component {
       <div >
         <Search
           placeholder="Google Search"
-          style={{ position: "absolute", left: "35%", width: "30%", marginTop: "2%" }}
-          enterButton={true}
-          onSearch={value => {
-            window.open(`https://www.google.com/search?q=${value}`, "_blank");
+          onSearch={(value) =>
+            window.open(`https://www.google.com/search?q=${value}`, "_blank")
+          }
+          style={{
+            position: "absolute",
+            left: "35%",
+            width: "30%",
+            marginTop: "3.5%",
+            textAlign: "center",
           }}
+          enterButton={true}
+          autoFocus
         ></Search>
       </div>
 
