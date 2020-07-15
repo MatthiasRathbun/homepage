@@ -92,6 +92,7 @@ class App extends Component {
               <li><a href="uplay://launch/4932/0" target="_blank" rel="noopener noreferrer">Division 2</a></li>
               <li><a href="steam://rungameid/1085660" target="_blank" rel="noopener noreferrer">Destiny 2</a></li>
               <li><a href="steam://rungameid/582010" target="_blank" rel="noopener noreferrer">Monster Hunter: World</a></li>
+              <li><a href="steam://rungameid/18161738552310759424" target="_blank" rel="noopener noreferrer">PS3 Emulator</a></li>
             </ul>
           </div>
           <div className="messaging linkContainer">
