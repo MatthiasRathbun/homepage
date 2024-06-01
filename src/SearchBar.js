@@ -10,9 +10,9 @@ export default class SearchBar extends Component {
     return (
       <div >
         <Search
-          placeholder="Google Search"
+          placeholder="Bing Search"
           onSearch={(value) =>
-            window.open(`https://www.google.com/search?q=${value}`, "_blank")
+            window.open(`https://www.bing.com/search?q=${value}`, "_blank")
           }
           style={{
             position: "absolute",
