@@ -9,10 +9,19 @@
     color: white;
 }
 
+.content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+    gap: 2.5rem;
+    position: relative;
+}
+
 .welcomeHeader {
     text-align: center;
-    position: relative;
-    top: 26%;
 }
 
 .welcomeTime {
@@ -26,16 +35,14 @@
 }
 
 .linksParentContainer {
-    position: relative;
-    top: 30%;
-    margin: auto;
+    width: min(1000px, 90vw);
+    margin: 0 auto;
+    padding: 0 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 7%;
-    grid-row-gap: 0px;
-    padding-left: 10%;
-    padding-right: 10%;
+    grid-row-gap: 0;
 }
 
 .work {
@@ -138,35 +145,67 @@ a:active {
     text-decoration: underline;
 }
 
-.ant-btn-primary {
-    color: #fff;
-    background-color: #582430;
-    border-color: #582430;
-    text-shadow: 0 -1px 0 rgba(0,0,0,.12);
-    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.045);
-    box-shadow: 0 2px 0 rgba(0,0,0,.045);
+.searchBarWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
-.ant-input {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    font-variant: tabular-nums;
-    list-style: none;
-    -webkit-font-feature-settings: "tnum";
-    font-feature-settings: "tnum","tnum";
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    min-width: 0;
-    padding: 4px 11px;
-    color: rgba(255,255,255,1);
-    font-size: 14px;
-    line-height: 1.5715;
-    background-color: #444444;
-    background-image: none;
-    border: 1px solid #444444;
-    border-radius: 2px;
-    -webkit-transition: all .3s;
-    transition: all .3s;
+.searchBar {
+    display: flex;
+    width: min(520px, 80vw);
+    background: #3d3d3d;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+}
+
+.searchInput {
+    flex: 1;
+    padding: 0.85rem 1rem;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.searchInput::placeholder {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.searchButton {
+    border: none;
+    background: #5a1c2b;
+    color: #fff;
+    padding: 0 1.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.searchButton:hover {
+    background: #6c2639;
+}
+
+@media (max-width: 900px) {
+    .linksParentContainer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .linksParentContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .searchBarWrapper {
+        width: 85vw;
+    }
 }

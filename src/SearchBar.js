@@ -1,31 +1,42 @@
-import React, { Component } from "react";
-import { Input } from "antd";
+import { useCallback, useState } from 'react';
 
+const SearchBar = () => {
+  const [value, setValue] = useState('');
 
-const { Search } = Input;
+  const openSearch = useCallback((query) => {
+    const trimmed = query?.trim();
+    if (!trimmed) {
+      return;
+    }
 
+    window.open(`https://www.bing.com/search?q=${encodeURIComponent(trimmed)}`, '_blank', 'noopener,noreferrer');
+  }, []);
 
-export default class SearchBar extends Component {
-  render() {
-    return (
-      <div >
-        <Search
+  const handleSubmit = useCallback(
+    (event) => {
+      event?.preventDefault();
+      openSearch(value);
+    },
+    [openSearch, value]
+  );
+
+  return (
+    <div className="searchBarWrapper">
+      <form className="searchBar" onSubmit={handleSubmit}>
+        <input
+          className="searchInput"
+          type="text"
           placeholder="Bing Search"
-          onSearch={(value) =>
-            window.open(`https://www.bing.com/search?q=${value}`, "_blank")
-          }
-          style={{
-            position: "absolute",
-            left: "35%",
-            width: "30%",
-            marginTop: "3.5%",
-            textAlign: "center",
-          }}
-          enterButton={true}
+          value={value}
+          onChange={(event) => setValue(event.target.value)}
           autoFocus
-        ></Search>
-      </div>
+        />
+        <button className="searchButton" type="submit" aria-label="Search Bing">
+          Search
+        </button>
+      </form>
+    </div>
+  );
+};
 
-    );
-  }
-}
+export default SearchBar;
